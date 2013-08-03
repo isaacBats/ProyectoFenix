@@ -13,7 +13,7 @@
 				<div id="cabeza">
 					<h1 class="logo-grande">
 						<a href="/" title="fenixreportes.homelunix.com">
-							<img src="/images/logos/Fenix448x207.png" alt="fenixreportes.homelinux.com" height="124" width="269" />
+							<img class="logoFenix" src="/images/logos/Fenix448x207.png" alt="fenixreportes.homelinux.com" height="124" width="269" />
 						</a>
 					</h1>
 				</div>
