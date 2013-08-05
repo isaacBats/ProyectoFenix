@@ -3,9 +3,9 @@
 a{color:#fff; text-decoration:none}
 a:hover{text-decoration:underline}
 body{background:#45505c;color:#323e4a;font-family:'open sans',Arial,Sans-serif;font-size:16px}
-h1 .logoFenix {position:absolute;z-index:10;}
+h1{background:#F0D58C;font-size:52px; font-family:'Metrophobic', Arial, serif; font-weight: 400;}
+h2{background:#F0D58C;font-size:38px;}
 img {border:none}
-#cabecera{background:#fff; margin:0 auto; max-width:1000px; position:relative; z-index:7;}
-#cabecera #fenixMedio {float:right; position:absolute; top:3px;}
-#cabecera h1 a img {left:700px;float:left; position:absolute; top:3px;}*/
+#cabecera{background:#fff; color:#000080; margin:0 auto; max-width:1000px; position:relative; z-index:7;}
+#cabecera #logoFenix {left:700px;float:left; position:absolute; top:3px;}
 #main{background:#fff;margin:0 auto;max-width:1000px;position:relative;}

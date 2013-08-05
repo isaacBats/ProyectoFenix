@@ -10,13 +10,12 @@
 	<body>
 		<div id="main">
 			<header id="cabecera">
-				<div id="cabeza">
-					<h1 class="logo-grande">
-						<a href="/" title="fenixreportes.homelunix.com">
-							<img class="logoFenix" src="/images/logos/Fenix448x207.png" alt="fenixreportes.homelinux.com" height="124" width="269" />
-						</a>
-					</h1>
-				</div>
+				<h1 class="logo-grande">Farmacias El F&eacute;nix
+					<a href="/" title="Farmacias El F&eacute;nix">
+						<img id="logoFenix" src="/images/logos/Fenix448x207.png" alt="fenixreportes.homelinux.com" height="124" width="269" />
+					</a>
+				</h1>
+				<h2>Cuidamos de ti y tu dinero</h2>
 			</header>
 			<section id="entorno">
 			</section>
