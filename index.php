@@ -9,13 +9,16 @@
 	</head>
 	<body>
 		<div id="main">
-			<header id="cabecera">
-				<h1 class="logo-grande">Farmacias El F&eacute;nix
+			<header>
+				<div id="dato">
+					<h1>Farmacias El F&eacute;nix</h1>
+					<h2>Cuidamos de ti y tu dinero</h2>
+				</div>
+				<div id="logo">
 					<a href="/" title="Farmacias El F&eacute;nix">
 						<img id="logoFenix" src="/images/logos/Fenix448x207.png" alt="fenixreportes.homelinux.com" height="124" width="269" />
 					</a>
-				</h1>
-				<h2>Cuidamos de ti y tu dinero</h2>
+				</div>
 			</header>
 			<section id="entorno">
 			</section>

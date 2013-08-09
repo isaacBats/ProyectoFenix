@@ -1,11 +1,73 @@
 /*Clases css3 para index.php*/
 
-a{color:#fff; text-decoration:none}
+/*a{color:#fff; text-decoration:none}
 a:hover{text-decoration:underline}
-body{background:#45505c;color:#323e4a;font-family:'open sans',Arial,Sans-serif;font-size:16px}
-h1{background:#F0D58C;font-size:52px; font-family:'Metrophobic', Arial, serif; font-weight: 400;}
-h2{background:#F0D58C;font-size:38px;}
+body{background:#45505c;font-family:Helvetica, Arial;font-size:16px}
+header{background: white; color: #000080; display:inline-block; margin: 0 auto; width: 95%;}
+#dato{max-height: 124px; max-width: 1000px;}
+#logo{float:right; max-height: 124px; max-width:270px }
+h1{font-size:52px; text-align: center;}
+h2{font-size:34px;}
 img {border:none}
-#cabecera{background:#fff; color:#000080; margin:0 auto; max-width:1000px; position:relative; z-index:7;}
-#cabecera #logoFenix {left:700px;float:left; position:absolute; top:3px;}
-#main{background:#fff;margin:0 auto;max-width:1000px;position:relative;}
+#logo{float:right; height: 124px; width: 270px;}
+#main{background:#fff;margin:0 auto;max-width:1000px;position:relative;}*/
+
+body
+{
+    background:grey;
+    color:white;
+    font-family:"Courier New", Helvetica, Arial;
+    font-size:16px;
+    margin:0;
+}
+
+h1
+{
+    font-size:52px;
+        
+}
+
+h2
+{
+    font-size:34px;      
+}
+
+header
+{
+    background:white;
+    color:#000080;
+    display:inline-block;
+    margin: 0 auto;
+    width:95%;
+    max-height: 145px;
+}
+
+header,h1,h2{margin:0;}
+
+img{border:none;}
+
+#dato
+{
+    top:30px;
+    text-align:center;
+    
+}
+
+#dato, #logo
+{
+    position:relative;
+    
+}
+
+#logo
+{
+    float:right;
+    bottom:85px;
+}
+
+#main
+{
+    background:lightgray;
+    margin:0 auto;
+    max-width:1400px;
+}
