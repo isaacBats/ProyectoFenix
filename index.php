@@ -8,7 +8,7 @@
 		<link href="/css/styleIndex.css" rel="stylesheet" />
 	</head>
 	<body>
-		<div id="main">
+		<section id="main">
 			<header>
 				<div id="dato">
 					<h1>Farmacias El F&eacute;nix</h1>
@@ -16,14 +16,26 @@
 				</div>
 				<div id="logo">
 					<a href="/" title="Farmacias El F&eacute;nix">
-						<img id="logoFenix" src="/images/logos/Fenix448x207.png" alt="fenixreportes.homelinux.com" height="124" width="269" />
+						<img id="logoFenix" src="/images/logos/Fenix448x207.png" alt="El Fenix del Centro" height="124" width="269"/>
 					</a>
 				</div>
 			</header>
 			<section id="entorno">
+				<div id="sitebar">
+					<nav>
+						<ul>
+							<li><a href="#inicio">Inicio</a></li>
+							<li><a href="#sucursales">Sucursales</a></li>
+							<li><a href="#contacto">Contacto</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div id="imagenPortada">
+					<img src="images/bodys/portada.jpg" alt="Farmacias El Fénix del Centro" height="380" width="600"/>
+				</div>
 			</section>
 			<footer id="pie">
 			</footer>
-		</div>
+		</section>
 	</body>
 </html>

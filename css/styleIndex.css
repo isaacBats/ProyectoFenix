@@ -29,7 +29,9 @@ h1
 
 h2
 {
-    font-size:34px;      
+    font-size:34px;
+    position: relative;
+    left:20px;     
 }
 
 header
@@ -38,25 +40,51 @@ header
     color:#000080;
     display:inline-block;
     margin: 0 auto;
-    width:95%;
+    width:100%;
     max-height: 145px;
 }
 
-header,h1,h2{margin:0;}
+h1,h2{margin:0;}
 
 img{border:none;}
+
+nav ul
+{
+	font-size: 0;
+	padding: 0;
+}
+nav ul li 
+{
+	background: rgba(0,0,0,0.5);
+	height: 50px;
+	line-height: 50px;
+	padding: 10px 0;
+	width: 25%;
+}
+
+nav ul li a 
+{
+	color:#ddd;
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
 
 #dato
 {
     top:30px;
-    text-align:center;
-    
+    left: 20px;
 }
 
 #dato, #logo
 {
-    position:relative;
-    
+    position:relative;    
+}
+
+#entorno
+{
+
 }
 
 #logo
@@ -69,5 +97,10 @@ img{border:none;}
 {
     background:lightgray;
     margin:0 auto;
-    max-width:1400px;
+    max-width:1000px;
+}
+
+#sitebar
+{
+	color:white;
 }
