@@ -25,7 +25,7 @@
 					<nav>
 						<ul>
 							<li><a href="/">Inicio</a></li>
-							<li><a href="#inicio">Misi&oacute;n y Visi&oacute;n</a></li>
+							<li><a href="mision-vision.html">Misi&oacute;n y Visi&oacute;n</a></li>
 							<li><a href="#sucursales">Sucursales</a></li>
 							<li><a href="#contacto">Contacto</a></li>
 						</ul>
