@@ -27,7 +27,7 @@
 							<li><a href="/">Inicio</a></li>
 							<li><a href="">Empresa</a>
 								<ul>
-									<li><a href="mision-vision">Misi&oacute;n y Visi&oacute;n</a></li>
+									<li><a href="mision-vision.html">Misi&oacute;n y Visi&oacute;n</a></li>
 								</ul>
 							</li>
 							<li><a href="">Sucursales</a>
