@@ -21,27 +21,31 @@
 				</div>
 			</header>
 			<section id="entorno">
-				<div id="sitebar">
-					<nav>
-						<ul>
+				<div id="menu_primario">
+					<nav id="menu-wrap">
+						<ul id="menu">
 							<li><a href="/">Inicio</a></li>
-							<li><a href="#">Empresa</a></li>
+							<li><a href="">Empresa</a>
 								<ul>
 									<li><a href="mision-vision">Misi&oacute;n y Visi&oacute;n</a></li>
 								</ul>
-							<li><a href="#">Sucursales</a></li>
+							</li>
+							<li><a href="">Sucursales</a>
 								<ul>
-									<li><a href="#Znorte">Zona Norte</a></li>
-									<li><a href="#Zoriente">Zona Oriente</a></li>
-									<li><a href="#Zponiente">Zona Poniente</a></li>
-									<li><a href="#Zsur">Zona Sur</a></li>
-									<li><a href="#Zcentro">Zona Centro</a></li>
+									<li><a href="Znorte">Zona Norte</a></li>
+									<li><a href="Zoriente">Zona Oriente</a></li>
+									<li><a href="Zponiente">Zona Poniente</a></li>
+									<li><a href="Zsur">Zona Sur</a></li>
+									<li><a href="Zcentro">Zona Centro</a></li>
 								</ul>
-							<li><a href="#">Ayuda</a></li>
+							</li>
+							<li><a href="">Ayuda</a>
 								<ul>
-									<li><a href="#Contacto">Contacto</a></li>
-									<li><a href="#AvisoPriv">Aviso de Privacidad</a></li>
+									<li><a href="Contacto">Contacto</a></li>
+									<li><a href="AvisoPriv">Aviso de Privacidad</a></li>
 								</ul>
+							</li>
+							<li id="entrada"><a href="IniSesion">Iniciar Sesion</a></li>
 						</ul>
 					</nav>
 				</div>
