@@ -21,8 +21,8 @@
 				</div>
 			</header>
 			<section id="entorno">
-				<div id="menu_primario">
-					<nav id="menu-wrap"><div id="menu-trigger">Menu</div>
+				<div id="menuPrimario">
+					<nav id="menu-wrap"><!--<div id="menu-trigger">Menu</div>-->
 						<ul id="menu" style="display: block;">
 							<li><a href="/">Inicio</a></li>
 							<li><a href="">Empresa</a>
