@@ -426,8 +426,8 @@ img{border:none;}
 	border-radius: 0.5em;
 	margin: 20px 2%;
 	padding: 0.5em;
-	transition: all 0.5s ease-in;
-	/*-webkit-transition: all 0.5s ease-in;
+	/*transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
 	-moz-transition: all 0.5s ease-in;*/
  	/*-webkit-transition: background .3s ease 0s;*/
  	/*-o-transition: all 0.5s ease-in;
@@ -441,5 +441,22 @@ img{border:none;}
 	text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
 }
 
+#website p {text-align:justify; padding:1em;}
 /******************************************************/
 
+@media screen and (max-width:950px){
+    header
+    {
+        display: block;
+        text-align:center;
+        width: auto;
+    }
+    #logo, #dato
+    {
+        float: none;
+    }
+    #logo img
+    {
+        display: none;
+    }
+}
