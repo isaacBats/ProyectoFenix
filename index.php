@@ -22,8 +22,8 @@
 			</header>
 			<section id="entorno">
 				<div id="menu_primario">
-					<nav id="menu-wrap">
-						<ul id="menu">
+					<nav id="menu-wrap"><div id="menu-trigger">Menu</div>
+						<ul id="menu" style="display: block;">
 							<li><a href="/">Inicio</a></li>
 							<li><a href="">Empresa</a>
 								<ul>
@@ -48,6 +48,29 @@
 							<li id="entrada"><a href="IniSesion">Iniciar Sesion</a></li>
 						</ul>
 					</nav>
+			<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+		if ($.browser.msie && $.browser.version.substr(0,1)<7)
+		{
+		$('li').has('ul').mouseover(function(){
+			$(this).children('ul').css('visibility','visible');
+			}).mouseout(function(){
+			$(this).children('ul').css('visibility','hidden');
+			})
+		}
+
+		/* Mobile */
+		$('#menu-wrap').prepend('<div id="menu-trigger">Menu</div>');		
+		$("#menu-trigger").on("click", function(){
+			$("#menu").slideToggle();
+		});
+
+		// iPad
+		var isiPad = navigator.userAgent.match(/iPad/i) != null;
+		if (isiPad) $('#menu ul').addClass('no-transition');      
+    });          
+</script>
 				</div>
 				<div id="imagenPortada">
 					<img src="images/bodys/portada.jpg" alt="Farmacias El Fénix del Centro" height="380" width="600"/>
