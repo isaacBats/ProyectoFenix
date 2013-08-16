@@ -9,13 +9,13 @@ body
     margin:0;
 }
 
-h1
+#dato h1
 {
     font-size:52px;
         
 }
 
-h2
+#dato h2
 {
     font-size:34px;
     position: relative;
@@ -32,9 +32,9 @@ header
     max-height: 145px;
 }
 
-h1,h2{margin:0;}
+#dato h1, #dato h2{margin:0;}
 
-img{border:none;}
+#logo img{border:none; margin:0; padding:0;}
 
 
 #dato
@@ -46,11 +46,6 @@ img{border:none;}
 #dato, #logo
 {
     position:relative;    
-}
-
-#entorno
-{
-
 }
 
 #logo
@@ -444,13 +439,17 @@ img{border:none;}
 #website p {text-align:justify; padding:1em;}
 /******************************************************/
 
-@media screen and (max-width:950px){
+@media screen and (max-width:950px)
+{
     header
     {
         display: block;
+		height:auto;
         text-align:center;
         width: auto;
-    }
+   }
+   
+    #dato h1, #dato h2 {font-size:3em;}
     #logo, #dato
     {
         float: none;
