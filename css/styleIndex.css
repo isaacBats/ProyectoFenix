@@ -439,17 +439,99 @@ header
 #website p {text-align:justify; padding:1em;}
 /******************************************************/
 
-@media screen and (max-width:950px)
+@media screen and (max-width:900px)
 {
     header
     {
         display: block;
-		height:auto;
+		min-height:130px;
+        text-align:left;
+        width: auto;
+   }
+   
+   #dato h1 {font-size:2.5em;}
+   #dato h2 {font-size:1.8em; left:5px;}
+   
+   #dato h1, #dato h2 {height:auto;}
+   
+    #logo, #dato
+    {
+        float: none;
+    }
+    #logo img
+    {
+        display: inline-block;
+		float:right;
+    }
+}
+
+@media screen and (max-width:800px)
+{
+    header
+    {
+        display: block;
+		min-height:130px;
+        text-align:left;
+        width: auto;
+   }
+   
+   #dato h1 {font-size:2em;}
+   #dato h2 {font-size:1.2em; left:5px;}
+   
+   #dato h1, #dato h2 {height:auto;}
+   
+    #logo, #dato
+    {
+        float: none;
+    }
+    #logo img
+    {
+        display: inline-block;
+		float:right;
+    }
+}
+
+@media screen and (max-width:700px)
+{
+    header
+    {
+        display: block;
+		min-height:150px;
         text-align:center;
         width: auto;
    }
    
-    #dato h1, #dato h2 {font-size:3em;}
+   #dato h1 {font-size:2.5em;}
+   #dato h2 {font-size:1.8em; /*left:5px;*/ }
+   
+   #dato h1, #dato h2 {height:auto; padding:0;}
+   
+    #logo, #dato
+    {
+        float: none;
+    }
+    #logo img
+    {
+        display: none;
+		/*float:right;*/
+    }
+}
+
+@media screen and (max-width:480px)
+{
+    header
+    {
+        display: block;
+		min-height:130px;
+        text-align:justify;
+        width: auto;
+   }
+   
+   #dato h1 {font-size:28px;}
+   #dato h2 {font-size:14px; /*left:5px;*/ }
+   
+   #dato h1, #dato h2 {height:auto; padding:o;}
+   
     #logo, #dato
     {
         float: none;
@@ -459,3 +541,4 @@ header
         display: none;
     }
 }
+
