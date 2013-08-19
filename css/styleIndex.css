@@ -523,7 +523,7 @@ header
     {
         display: block;
 		min-height:130px;
-        text-align:justify;
+        text-align:left;
         width: auto;
    }
    
