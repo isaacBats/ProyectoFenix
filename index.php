@@ -72,8 +72,13 @@
     });          
 </script>
 				</div>
-				<div id="imagenPortada">
-					<img src="images/bodys/portada.jpg" alt="Farmacias El Fénix del Centro" height="380" width="600"/>
+				<div class="slider-imag">
+					<img class="img-slider" src="images/bodys/portada.jpg" alt="Farmacias El Fénix del Centro" height="380" width="100%"/>
+					<img class="img-slider" src="images/bodys/muestra01.jpg" alt="Descuento El Fénix del Centro" height="380" width="100%"/>
+					<img class="img-slider" src="images/bodys/muestra02.jpg" alt="Descuento El Fénix del Centro" height="380" width="100%"/>
+					<img class="img-slider" src="images/bodys/muestra03.jpg" alt="Descuento El Fénix del Centro" height="380" width="100%"/>
+					<img class="img-slider" src="images/bodys/muestra04.jpg" alt="Descuento El Fénix del Centro" height="380" width="100%"/>            
+        			<!--<img class="img-slider" src="images/bodys/portada.jpg" alt="Farmacias El Fénix del Centro" height="380" width="600"/>-->
 				</div>
 			</section>
 			<footer id="pie">
