@@ -64,13 +64,15 @@ header
 
 /*parte de codigo para menu*/
 
-#menu, #menu ul {
+#menu, #menu ul 
+    {
         margin: 0;
         padding: 0;
         list-style: none;
     }
     
-    #menu {
+    #menu 
+    {
         width: 100%;
         margin: 0 auto;
         border: 1px solid #222;
@@ -405,6 +407,8 @@ header
         display: block;
     }
 
+    #menu #entrada { float: right;}
+
 /*******************************************/
 
 /*************Css para pag de mision-vision************/
@@ -542,4 +546,12 @@ header
         display: none;
     }
 }
+
+/*************slider de website****************/
+
+#slider-imag{height: 380px;}
+#slider-imag img {display: none;}
+#slider-imag img:nth-child(1) {display: block;}
+
+/**********************************************/
 

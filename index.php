@@ -72,14 +72,32 @@
     });          
 </script>
 				</div>
-				<div class="slider-imag">
-					<img class="img-slider" src="images/bodys/portada.jpg" alt="Farmacias El Fénix del Centro" height="380" width="100%"/>
-					<img class="img-slider" src="images/bodys/muestra01.jpg" alt="Descuento El Fénix del Centro" height="380" width="100%"/>
-					<img class="img-slider" src="images/bodys/muestra02.jpg" alt="Descuento El Fénix del Centro" height="380" width="100%"/>
-					<img class="img-slider" src="images/bodys/muestra03.jpg" alt="Descuento El Fénix del Centro" height="380" width="100%"/>
-					<img class="img-slider" src="images/bodys/muestra04.jpg" alt="Descuento El Fénix del Centro" height="380" width="100%"/>            
+				<div id="slider-imag">
+					<img class="img-slider 1" src="images/bodys/portada.jpg" alt="Farmacias El Fénix del Centro" height="380" width="100%"/>
+					<img class="img-slider 2" src="images/bodys/muestra01.jpg" alt="Descuento El Fénix del Centro" height="380" width="100%"/>
+					<img class="img-slider 3" src="images/bodys/muestra02.jpg" alt="Descuento El Fénix del Centro" height="380" width="100%"/>
+					<img class="img-slider 4" src="images/bodys/muestra03.jpg" alt="Descuento El Fénix del Centro" height="380" width="100%"/>
+					<img class="img-slider 5" src="images/bodys/muestra04.jpg" alt="Descuento El Fénix del Centro" height="380" width="100%"/>            
         			<!--<img class="img-slider" src="images/bodys/portada.jpg" alt="Farmacias El Fénix del Centro" height="380" width="600"/>-->
 				</div>
+				<script src="/js/sliderIndex.js" type="text/javascript"></script>   
+					<script>
+						var i = 0;
+						$(document).on("ready", main);
+
+						function main(){
+						var control = setInterval(cambiarSlider, 5000);
+						}
+
+						function cambiarSlider(){
+							i++;
+							if(i == $("#slider-imag img").size()){
+							i = 0;
+						}
+						$("#slider-imag img").hide();
+						$("#slider-imag img").eq(i).fadeIn("medium");
+						}
+					</script>
 			</section>
 			<footer id="pie">
 			</footer>
