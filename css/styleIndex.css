@@ -112,7 +112,7 @@ header
         -webkit-box-shadow: 1px 0 0 #444;
         box-shadow: 1px 0 0 #444;
         position: relative;
-        /*width: 24.9%;*/
+        /*width: 20%;*/
     }
     
     #menu a {
@@ -330,7 +330,8 @@ header
             background: none;
             -moz-box-shadow: none;
             -webkit-box-shadow: none;
-            box-shadow: none;               
+            box-shadow: none;  
+            /*width: 25%;*/             
         }
 
         #menu ul ul {
@@ -389,6 +390,7 @@ header
         #menu {
             display: block !important;
         }
+         #menu #entrada { float: right;}
     }   
 
     /* iPad */
@@ -407,7 +409,7 @@ header
         display: block;
     }
 
-    #menu #entrada { float: right;}
+   
 
 /*******************************************/
 
@@ -468,6 +470,12 @@ header
         display: inline-block;
 		float:right;
     }
+    /*#menu #entrada { float: right; width: 100px;}
+    #menu li {
+        padding: 0;
+        position: relative;
+        width: 90px;
+    }*/
 }
 
 @media screen and (max-width:800px)
@@ -494,6 +502,12 @@ header
         display: inline-block;
 		float:right;
     }
+    /*#menu #entrada { float: right;}
+    #menu li {
+        padding: 0;
+        position: relative;
+        width: 20%;
+    }*/
 }
 
 @media screen and (max-width:700px)
@@ -520,6 +534,13 @@ header
         display: none;
 		/*float:right;*/
     }
+    /*#menu #entrada { float: right;}
+    #menu li {
+        padding: 0;
+        position: relative;
+        width: 20%;
+    }*/
+
 }
 
 @media screen and (max-width:480px)
@@ -555,3 +576,16 @@ header
 
 /**********************************************/
 
+
+/**************footer***************************/
+#pie
+{
+    background: white;
+    color:#000080;
+    display: block;
+    font-size: 10px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+/***********************************************/
