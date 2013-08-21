@@ -584,8 +584,13 @@ header
     color:#000080;
     display: block;
     font-size: 10px;
+    min-height: 160px;
     margin: 0 auto;
     padding: 0;
     width: 100%;
 }
+
+#pie div {display: inline-block; height: 60px; margin: 0 2px; padding:0.5em; width:auto; }
+#pie img {border: none;}
+
 /***********************************************/
