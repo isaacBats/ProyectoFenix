@@ -100,29 +100,29 @@
 					</script>
 			</section>
 			<footer id="pie">
-				<div id="logo_pie">
-					<a href="/">
-						<img src="/images/logos/logo2.png" alt="Contacto Fénix" height="60" width="150"/>
-					</a>
-				</div>
-				<div id="logocont">
-					<img src="/images/logos/telefono.gif" alt="Contacto Fénix" height="30" width="30"/>
-					<p>Para mayor información comuniquese al
-					<br>91 400 700
-					<br>Lada sin costo
-					<br>01 800 83 62 132</p>
-				</div>
-				<div id="face">
-					<a href="https://es-la.facebook.com/fenix.farmacias">
-						<img src="/images/logos/faceroto.png" alt="Fénix Facebook" height="60" width="60"/>
-					</a>
-				</div>
-				<div id="tewtt">
-					<a href="https://twitter.com/farmaselfenix">
-						<img src="/images/logos/twitter.jpg" alt="Fénix Twitter" height="60" width="60"/>
-					</a>
-				</div>
-				<div id="legal"></div>
+				<section class="primerfo">
+					<div id="logo_pie">
+						<a href="/">
+							<img src="/images/logos/logo2.png" alt="Fénix Farmacias" height="60" max-width="150"/>
+						</a>
+					</div>
+					<div id="logocont">
+						<img src="/images/logos/telefono.png" alt="Contacto Fénix" height="30" width="30"/>
+						<p>Conmutador: +(52) 91 400 700
+						<br>Lada si costo: 01 800 83 62 132</p>
+					</div>
+					<div id="face">
+						<a href="https://es-la.facebook.com/fenix.farmacias">
+							<img src="/images/logos/faceroto.png" alt="Fénix Facebook" height="60" width="60"/>
+						</a>
+					</div>
+					<div id="tewtt">
+						<a href="https://twitter.com/farmaselfenix">
+							<img src="/images/logos/twitter.png" alt="Fénix Twitter" height="60" width="60"/>
+						</a>
+					</div>
+				</section>
+				<!--<div id="legal"></div>-->
 			</footer>
 		</section>
 	</body>

@@ -586,11 +586,41 @@ header
     font-size: 10px;
     min-height: 160px;
     margin: 0 auto;
-    padding: 0;
+    text-align: center;
     width: 100%;
 }
 
-#pie div {display: inline-block; height: 60px; margin: 0 2px; padding:0.5em; width:auto; }
+#pie div {/*background:#F6D8CE;*/ -moz-border-radius: 2em; -webkit-border-radius: 2em; border-radius: 2em; display: inline-block; height: 60px; margin: 10px; padding: 0 5%; text-align: center; width:auto;}
 #pie img {border: none;}
+#pie section 
+{
+    border: 1px solid #222;
+    background-color: #111;
+    background-image: -moz-linear-gradient(#444, #111); 
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#444), to(#111));    
+    background-image: -webkit-linear-gradient(#444, #111);  
+    background-image: -o-linear-gradient(#444, #111);
+    background-image: -ms-linear-gradient(#444, #111);
+    background-image: linear-gradient(#444, #111);
+        /*-moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;*/
+    -moz-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+    -webkit-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+    box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+}
+#pie #logocont {margin: 10px 0 0 0;}
+#pie #logocont img {float:left; height: 30px; margin: 15px 5px 15px 0;  width: 30px;}
+#pie #logocont p {color:white; float:right; height: 30px; margin:20px 0 20px 5px; width: auto;}
+
+#pie div:hover img
+{
+   -moz-transform:scale(2.1);
+   -webkit-transform:scale(2.1);
+   -o-transform:scale(2.1);
+   transform:scale(2.1);
+
+}
+
 
 /***********************************************/
