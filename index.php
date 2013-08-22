@@ -122,7 +122,16 @@
 						</a>
 					</div>
 				</section>
-				<!--<div id="legal"></div>-->
+				<section class="legalfo">
+					<a href="javascript:;" rel="aviso.php">Aviso de Privacidad</a>
+					 | 
+					<a href="javascript:;" rel="politicas.php">Politicas de privacidad</a>
+					 | 
+					<a href="javascript:;" rel="contacto.php">Contacto</a>
+					<br>
+						&copy;2013 TODOS LOS DERECHOS RESERVADOS FARMACIAS EL FENIX DEL CENTRO S.A. DE C.V. 
+					<br>Dirección:Calle Lago Trasimeno #36, Col. Anahuac México D.F. 11320 RFC: FFC6611235C0
+				</section>
 			</footer>
 		</section>
 	</body>

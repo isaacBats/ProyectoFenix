@@ -592,7 +592,7 @@ header
 
 #pie div {/*background:#F6D8CE;*/ -moz-border-radius: 2em; -webkit-border-radius: 2em; border-radius: 2em; display: inline-block; height: 60px; margin: 10px; padding: 0 5%; text-align: center; width:auto;}
 #pie img {border: none;}
-#pie section 
+#pie .primerfo 
 {
     border: 1px solid #222;
     background-color: #111;
