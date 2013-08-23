@@ -39,12 +39,12 @@
 									<li><a href="Zcentro">Zona Centro</a></li>
 								</ul>
 							</li>
-							<li><a href="">Ayuda</a>
+							<!--<li><a href="">Ayuda</a>
 								<ul>
 									<li><a href="Contacto">Contacto</a></li>
 									<li><a href="AvisoPriv">Aviso de Privacidad</a></li>
 								</ul>
-							</li>
+							</li>-->
 							<li id="entrada"><a href="IniSesion">Iniciar Sesion</a></li>
 						</ul>
 					</nav>

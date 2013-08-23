@@ -609,6 +609,8 @@ header
     -webkit-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
     box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
 }
+#pie .legalfo{padding-top:2%; text-decoration: none;}
+#pie .legalfo a{text-decoration: none;}
 #pie #logocont {margin: 10px 0 0 0;}
 #pie #logocont img {float:left; height: 30px; margin: 15px 5px 15px 0;  width: 30px;}
 #pie #logocont p {color:white; float:right; height: 30px; margin:20px 0 20px 5px; width: auto;}
