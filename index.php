@@ -112,12 +112,12 @@
 						<br>Lada si costo: 01 800 83 62 132</p>
 					</div>
 					<div id="face">
-						<a href="https://es-la.facebook.com/fenix.farmacias">
+						<a href="https://es-la.facebook.com/fenix.farmacias" target="_blank">
 							<img src="/images/logos/faceroto.png" alt="Fénix Facebook" height="60" width="60"/>
 						</a>
 					</div>
 					<div id="tewtt">
-						<a href="https://twitter.com/farmaselfenix">
+						<a href="https://twitter.com/farmaselfenix" target="_blank">
 							<img src="/images/logos/twitter.png" alt="Fénix Twitter" height="60" width="60"/>
 						</a>
 					</div>
