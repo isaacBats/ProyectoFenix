@@ -6,6 +6,15 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width = device-width, initial-scale=1, maximum-scale=1"/>
 		<link href="/css/styleIndex.css" rel="stylesheet" />
+		<script src="/js/jquery.min.js" type="text/javascript"></script>
+		<script src="/js/reveal.js" type="text/javascript"></script>
+	<script>
+		$('#privacidad').reveal({
+     	animation: 'fadeAndPop',                   
+     	animationspeed: 300,                       
+     	closeonbackgroundclick: true,              
+     	dismissmodalclass: 'close-reveal-modal'    
+});	</script>
 	</head>
 	<body>
 		<section id="main">
@@ -117,6 +126,7 @@
 							Si usted desea dejar de recibir mensajes promocionales de nuestra parte puede solicitarlo a través de [teléfono, dirección, correo electrónico]. 
 							Cualquier modificación a este aviso de privacidad podrá consultarla en nuestra página web www.farfenix.com.mx Fecha última actualización 06/06/2011.
 						</p>
+						<a class="close-reveal-modal">x</a>
 					</div>
 					<div id="usuario">
 						<p>
@@ -135,6 +145,7 @@
 							derecho a excluir al usuario del servicio sin previo aviso, y a adoptar cuantas medidas considere oportunas en cada momento, a fin de evitar las 
 							conductas y actividades indicadas.
 						</p>
+						<a class="close-reveal-modal">x</a>
 					</div>
 					<div id="contacto">
 						<p>
@@ -145,8 +156,17 @@
 							Correo electónico backoffice@farfenix.com.mx
 							Web: www.farfenix.com.mx
 						</p>
+						<a class="close-reveal-modal">x</a>
 					</div>
-					
+<!-- <script src="/js/reveal.js" type="text/javascript"></script>   
+	<script>
+			$('#privacidad').reveal({
+     animation: 'fadeAndPop',                   
+     animationspeed: 300,                       
+     closeonbackgroundclick: true,              
+     dismissmodalclass: 'close-reveal-modal'    
+});
+	</script> -->
 				</div>
 			</section>
 			<footer id="pie">
@@ -173,11 +193,11 @@
 					</div>
 				</section>
 				<section class="legalfo">
-					<a href="#privacidad">Aviso de Privacidad</a>
+					<a href="#privacidad" data-reveal-id="privacidad">Aviso de Privacidad</a>
 					 | 
-					<a href="#usuario">Condiciones para el usuario</a>
+					<a href="#usuario" data-reveal-id="usuario">Condiciones para el usuario</a>
 					 | 
-					<a href="#contacto">Contacto</a>
+					<a href="#contacto" data-reveal-id="contacto">Contacto</a>
 					<br>
 						&copy;2013 TODOS LOS DERECHOS RESERVADOS FARMACIAS EL FENIX DEL CENTRO S.A. DE C.V. 
 					<br>Dirección:Calle Lago Trasimeno #36, Col. Anahuac México D.F. 11320 RFC: FFC6611235C0
