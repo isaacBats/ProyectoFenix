@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width = device-width, initial-scale=1, maximum-scale=1"/>
 		<link href="/css/styleIndex.css" rel="stylesheet" />
 		<script src="/js/jquery.min.js" type="text/javascript"></script>
+		<script src="/js/jquery.min.1.2.js" type="text/javascript"></script>
 		<script src="/js/reveal.js" type="text/javascript"></script>
 	<script>
 		$('#privacidad').reveal({
@@ -106,8 +107,8 @@
 		}
 	</script>
 	
-				<div id="avisos">
-					<div id="privacidad">
+				<div id="avisos" class="reveal-modal-bg" style="display:block;">
+					<div id="privacidad" class:"revealModal open" style="display:block; opacity:1; visibility:visible; top:300px;">
 						<p>
 							<h2>Aviso de Privacidad</h2>
 							FARMACIAS EL FENIX DEL CENTRO, S.A. DE C.V. O FARMACIAS EL FENIX, con domicilio en Lago Trasimeno 36, colonia Anáhuac, Delegación Miguel Hidalgo, 
@@ -128,7 +129,7 @@
 						</p>
 						<a class="close-reveal-modal">x</a>
 					</div>
-					<div id="usuario">
+					<div id="usuario" class:"revealModal open" style="display:block; opacity:1; visibility:visible; top:300px;">
 						<p>
 							<h2>Condiciones de utilización para el usuario</h2>
 							Los usuarios pueden tener acceso y ver el contenido de este sitio web gratuitamente, conforme a estos términos y a cualquier 
@@ -147,7 +148,7 @@
 						</p>
 						<a class="close-reveal-modal">x</a>
 					</div>
-					<div id="contacto">
+					<div id="contacto" class:"revealModal open" style="display:block; opacity:1; visibility:visible; top:1039px;">
 						<p>
 							<h2>Estamos a sus ordenes por los siguientes medios</h2>
 							

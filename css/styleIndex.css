@@ -627,7 +627,30 @@ header
 
 /***********************************************/
 /*********Avisos Legales************************/
-#avisos{display:none;}
+#avisos
+{
+    background: rgba(0,0,0,0.45);
+    display:none;
+    height: 100%;
+    /*position:fixed;*/
+    width: 100%;
+} 
+
+.revealModal 
+{
+    background: white;
+    border:solid 1px #666666;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    color: black;
+    display: none;
+    height: auto;
+    padding: 1em;
+    position: absolute;
+    visibility: hidden;
+    width: 80%;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.4);
+
+}
 
 
 /***********************************************/
