@@ -99,8 +99,8 @@
 			$("#slider-imag img").eq(i).fadeIn("medium");
 		}
 	</script>
-	
-				<div id="avisos"> <!-- style="visibility:hidden;">-->
+	<!--
+				<div id="avisos"> <--style="visibility:hidden;">--
 					<div id="aviso" class:"reveal-modal">
 						<p>
 							<h2>Aviso de Privacidad</h2>
@@ -152,8 +152,8 @@
 						</p>
 						<a class="close-reveal-modal">&#215;</a>
 					</div> 
-					 <!--<div class="reveal-modal-bg"></div>-->
-				</div>
+					 <div class="reveal-modal-bg"></div> //comentado anteriormente
+				</div>-->
 			</section>
 			<footer id="pie">
 				<section class="primerfo">
@@ -179,7 +179,7 @@
 					</div>
 				</section>
 				<section class="legalfo">
-					<a href="#" data-reveal-id="aviso" data-animation="fadeAndPop">Aviso de Privacidad</a>
+					<a href="#" data-reveal-id="myModal" data-animation="fadeAndPop">Aviso de Privacidad</a>
 					 | 
 					<a href="#" data-reveal-id="usuario" data-animation="fadeAndPop">Condiciones para el usuario</a>
 					 | 
@@ -188,6 +188,27 @@
 					<br>Dirección:Calle Lago Trasimeno #36, Col. Anahuac México D.F. 11320 RFC: FFC6611235C0
 				</section>
 			</footer>
+			<div id="myModal" class="reveal-modal">
+				<p>
+							<h2>Aviso de Privacidad</h2>
+							FARMACIAS EL FENIX DEL CENTRO, S.A. DE C.V. O FARMACIAS EL FENIX, con domicilio en Lago Trasimeno 36, colonia Anáhuac, Delegación Miguel Hidalgo, 
+							México, D.F., C.P. 11360, es responsable de recabar sus datos personales, del uso que se le dé a los mismos y de su protección. 
+							Su información personal y de la empresa serán utilizada para proveer los servicios y productos que ha solicitado, informarle sobre cambios 
+							en los mismos y evaluar la calidad del servicio que le brindamos. Para las finalidades antes mencionadas, requerimos obtener los siguientes 
+							datos personales: Nombre, Domicilio, Teléfono, Correo electrónico. 
+							Usted tiene derecho de acceder, rectificar y cancelar sus datos personales, así como de oponerse al tratamiento de los mismos o revocar 
+							el consentimiento que para tal fin nos haya otorgado, a través de los procedimientos que hemos implementado. 
+							Para conocer dichos procedimientos, los requisitos y plazos, se puede poner en contacto con nuestro departamento de datos personales en la dirección
+							ya mencionada ó ponerse en contacto al conmutador: 91400700 exts. 106, 198, datospersonales@farfenix.com.mx. 
+							Asimismo, le informamos que sus datos personales pueden ser transferidos y tratados dentro y fuera del país, por personas distintas a esta empresa. 
+							En ese sentido, su información puede ser compartida con [señalar el tipo de destinatarios de estas transferencias], para [describir finalidades]. 
+							Si usted no manifiesta su oposición para que sus datos personales sean transferidos, se entenderá que ha otorgado su consentimiento para ello. 
+							No consiento que mis datos personales sean transferidos en los términos que señala el presente aviso de privacidad. 
+							Si usted desea dejar de recibir mensajes promocionales de nuestra parte puede solicitarlo a través de [teléfono, dirección, correo electrónico]. 
+							Cualquier modificación a este aviso de privacidad podrá consultarla en nuestra página web www.farfenix.com.mx Fecha última actualización 06/06/2011.
+						</p>
+						<a class="close-reveal-modal">&#215;</a>				
+			</div>
 		</section>
 	</body>
 </html>
