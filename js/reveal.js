@@ -41,7 +41,7 @@
               "opacity": 1
             }, options.animationSpeed, unlockModal);
           }
-          /*if (options.animation == "fade") {
+          if (options.animation == "fade") {
             modal.css({'opacity': 0, 'visibility': 'visible', 'top': $(document).scrollTop() + topMeasure});
             modalBg.fadeIn(options.animationSpeed / 2);
             modal.delay(options.animationSpeed / 2).animate({
@@ -52,7 +52,7 @@
             modal.css({'visibility': 'visible', 'top': $(document).scrollTop() + topMeasure});
             modalBg.css({"display": "block"});
             unlockModal();
-          }*/
+          }
         }
         modal.unbind('reveal:open', openAnimation);
       }
@@ -71,7 +71,7 @@
               unlockModal();
             });
           }
-          /*if (options.animation == "fade") {
+          if (options.animation == "fade") {
             modalBg.delay(options.animationSpeed).fadeOut(options.animationSpeed);
             modal.animate({
               "opacity" : 0
@@ -83,7 +83,7 @@
           if (options.animation == "none") {
             modal.css({'visibility': 'hidden', 'top': topMeasure});
             modalBg.css({'display': 'none'});
-          }*/
+          }
         }
         modal.unbind('reveal:close', closeAnimation);
       }

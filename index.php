@@ -100,9 +100,8 @@
 		}
 	</script>
 	
-				<!--<div id="avisos" class="reveal-modal-bg" style="display:block;">-->
-					<!--<div id="myModal" class:"reveal-modal" style="display:block; opacity:1; visibility:visible; top:300px;">-->
-					<div id="myModal" class:"reveal-modal">
+				<div id="avisos"> <!-- style="visibility:hidden;">-->
+					<div id="aviso" class:"reveal-modal">
 						<p>
 							<h2>Aviso de Privacidad</h2>
 							FARMACIAS EL FENIX DEL CENTRO, S.A. DE C.V. O FARMACIAS EL FENIX, con domicilio en Lago Trasimeno 36, colonia Anáhuac, Delegación Miguel Hidalgo, 
@@ -123,8 +122,7 @@
 						</p>
 						<a class="close-reveal-modal">&#215;</a>
 					</div>
-					<!--<div id="myModal" class:"reveal-modal" style="display:block; opacity:1; visibility:visible; top:300px;">-->
-					<div id="myModal" class:"reveal-modal">
+					<div id="usuario" class:"reveal-modal">
 						<p>
 							<h2>Condiciones de utilización para el usuario</h2>
 							Los usuarios pueden tener acceso y ver el contenido de este sitio web gratuitamente, conforme a estos términos y a cualquier 
@@ -143,8 +141,7 @@
 						</p>
 						<a class="close-reveal-modal">&#215;</a>
 					</div>
-					<!--<div id="myModal" class:"reveal-modal" style="display:block; opacity:1; visibility:visible; top:1039px;">-->
-					<div id="myModal" class:"reveal-modal">
+					<div id="contacto" class:"reveal-modal">
 						<p>
 							<h2>Estamos a sus ordenes por los siguientes medios</h2>
 							
@@ -155,7 +152,8 @@
 						</p>
 						<a class="close-reveal-modal">&#215;</a>
 					</div> 
-				<!--</div>-->
+					 <!--<div class="reveal-modal-bg"></div>-->
+				</div>
 			</section>
 			<footer id="pie">
 				<section class="primerfo">
@@ -181,11 +179,11 @@
 					</div>
 				</section>
 				<section class="legalfo">
-					<a href="#" data-reveal-id="myModal" data-animation="fadeAndPop">Aviso de Privacidad</a>
+					<a href="#" data-reveal-id="aviso" data-animation="fadeAndPop">Aviso de Privacidad</a>
 					 | 
-					<a href="#" data-reveal-id="myModal" data-animation="fadeAndPop">Condiciones para el usuario</a>
+					<a href="#" data-reveal-id="usuario" data-animation="fadeAndPop">Condiciones para el usuario</a>
 					 | 
-					<a href="#" data-reveal-id="myModal" data-animation="fadeAndPop">Contacto</a>
+					<a href="#" data-reveal-id="contacto" data-animation="fadeAndPop">Contacto</a>
 					<br>&copy;2013 TODOS LOS DERECHOS RESERVADOS FARMACIAS EL FENIX DEL CENTRO S.A. DE C.V. 
 					<br>Dirección:Calle Lago Trasimeno #36, Col. Anahuac México D.F. 11320 RFC: FFC6611235C0
 				</section>
