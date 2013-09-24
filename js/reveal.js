@@ -1,42 +1,41 @@
 
 
-(function ($) {
-  $('a[data-reveal-id]').live('click', function (event) {
+(function ($) 
+{
+  $('a[data-reveal-id]').live('click', function (event) 
+  {
     event.preventDefault();
     var modalLocation = $(this).attr('data-reveal-id');
     $('#' + modalLocation).reveal($(this).data());
   });
 
-  $.fn.reveal = function (options) {
-    var defaults = {
-      animation: 'fadeAndPop',                
-      animationSpeed: 300,                    
-      closeOnBackgroundClick: true,           
-      dismissModalClass: 'close-reveal-modal' 
-    };
+  $.fn.reveal = function (options) 
+  {
+    var defaults = {animation: 'fadeAndPop', animationSpeed: 300, closeOnBackgroundClick: true, dismissModalClass: 'close-reveal-modal'};
     var options = $.extend({}, defaults, options);
 
-    return this.each(function () {
-      var modal    = $(this),
-        topMeasure = parseInt(modal.css('top')),
-        topOffset  = modal.height() + topMeasure,
-        locked     = false,
-        modalBg    = $('.reveal-modal-bg');
+    return this.each(function () 
+    {
+      var modal = $(this), topMeasure = parseInt(modal.css('top')), topOffset = modal.height() + topMeasure, locked = false, modalBg = $('.reveal-modal-bg');
 
-      if (modalBg.length == 0) {
+      if (modalBg.length == 0) 
+      {
         modalBg = $('<div class="reveal-modal-bg" />').insertAfter(modal);
         modalBg.fadeTo('fast', 0.8);
       }
 
-      function openAnimation() {
+      function openAnimation() 
+      {
         modalBg.unbind('click.modalEvent');
         $('.' + options.dismissModalClass).unbind('click.modalEvent');
         if (!locked) {
           lockModal();
-          if (options.animation == "fadeAndPop") {
+          if (options.animation == "fadeAndPop") 
+          {
             modal.css({'top': $(document).scrollTop() - topOffset, 'opacity': 0, 'visibility': 'visible'});
             modalBg.fadeIn(options.animationSpeed / 2);
-            modal.delay(options.animationSpeed / 2).animate({
+            modal.delay(options.animationSpeed / 2).animate(
+            {
               "top": $(document).scrollTop() + topMeasure + 'px',
               "opacity": 1
             }, options.animationSpeed, unlockModal);
