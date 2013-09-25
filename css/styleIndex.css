@@ -428,12 +428,6 @@ header
 	border-radius: 0.5em;
 	margin: 20px 2%;
 	padding: 0.5em;
-	/*transition: all 0.5s ease-in;
-	-webkit-transition: all 0.5s ease-in;
-	-moz-transition: all 0.5s ease-in;*/
- 	/*-webkit-transition: background .3s ease 0s;*/
- 	/*-o-transition: all 0.5s ease-in;
- 	-ms-transition: all 0.5s ease-in;*/
 }
 
 #website h2
@@ -627,42 +621,21 @@ header
 
 /***********************************************/
 /*********Avisos Legales************************/
-/*#avisos
-{
-    background: rgba(0,0,0,0.45);
-    display:none;
+
+.reveal-modal-bg 
+{ 
+    position: fixed; 
     height: 100%;
-    position:fixed;
     width: 100%;
-} 
-
-.revealModal 
-{
-    background: white;
-    border:solid 1px #666666;
-    box-shadow: 0 0 10px rgba(0,0,0,0.4);
-    color: black;
+    background: #000;
+    z-index: 100;
     display: none;
-    height: auto;
-    padding: 1em;
-    position: absolute;
-    visibility: hidden;
-    width: 80%;
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    top: 0;
+    left: 0; 
+}
 
-}*/
-.reveal-modal-bg { 
-        position: fixed; 
-        height: 100%;
-        width: 100%;
-        background: #000;
-        z-index: 100;
-        display: none;
-        top: 0;
-        left: 0; 
-        }
-
-.reveal-modal {
+.reveal-modal 
+{
         -moz-border-radius: 5px;
         -moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
         -webkit-border-radius: 5px;
@@ -672,31 +645,38 @@ header
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0,0,0,.4);
         color:#000080;
+        font-size: 12px;
         left: 50%;
         margin-left: -300px;
         padding: 30px 40px 34px;
         position: absolute;
+        text-align: justify;
         top: 10px; 
         visibility: hidden;
-        width: 520px;
-        }
+        max-width: 520px;
+}
         
-    .reveal-modal.small         { width: 200px; margin-left: -140px;}
-    .reveal-modal.medium        { width: 400px; margin-left: -240px;}
-    .reveal-modal.large         { width: 600px; margin-left: -340px;}
-    .reveal-modal.xlarge        { width: 800px; margin-left: -440px;}
+.reveal-modal.small         { width: 200px; margin-left: -140px;}
+.reveal-modal.medium        { width: 400px; margin-left: -240px;}
+.reveal-modal.large         { width: 600px; margin-left: -340px;}
+.reveal-modal.xlarge        { width: 800px; margin-left: -440px;}
     
-    .reveal-modal .close-reveal-modal {
-        color: #aaa;
-        cursor: pointer;
-        font-size: 22px;
-        font-weight: bold;
-        line-height: .5;
-        position: absolute;
-        right: 11px;
-        text-shadow: 0 -1px 1px rbga(0,0,0,.6);
-        top: 8px;
-        } 
+.reveal-modal .close-reveal-modal 
+{
+    color: #aaa;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: .5;
+    position: absolute;
+    right: 11px;
+    text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+    top: 8px;
+} 
+
+.reveal-modal h2 {text-align: center;}
+
+
 
 
 /***********************************************/
