@@ -15,6 +15,7 @@ Se autoriza copiar el codigo siempre y cuando reconoscan el trabajo de un servid
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width = device-width, initial-scale=1, maximum-scale=1"/>
 		<link href="/css/styleIndex.css" rel="stylesheet" />
+		<link href="/css/styleZona.css" rel="stylesheet" />
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
 		<script src="/js/jquery.min.1.2.js" type="text/javascript"></script>
 		<script src="/js/reveal.js" type="text/javascript"></script>
@@ -44,11 +45,11 @@ Se autoriza copiar el codigo siempre y cuando reconoscan el trabajo de un servid
 							</li>
 							<li><a href="">Sucursales</a>
 								<ul>
-									<li><a href="Znorte.html">Zona Norte</a></li>
-									<li><a href="Zoriente.html">Zona Oriente</a></li>
-									<li><a href="Zponiente.html">Zona Poniente</a></li>
-									<li><a href="Zsur.html">Zona Sur</a></li>
-									<li><a href="Zcentro.html">Zona Centro</a></li>
+									<li><a href="Znorte">Zona Norte</a></li>
+									<li><a href="Zoriente">Zona Oriente</a></li>
+									<li><a href="Zponiente">Zona Poniente</a></li>
+									<li><a href="Zsur">Zona Sur</a></li>
+									<li><a href="Zcentro">Zona Centro</a></li>
 								</ul>
 							</li>
 							<li id="entrada"><a href="IniSesion">Iniciar Sesion</a></li>
@@ -78,30 +79,31 @@ Se autoriza copiar el codigo siempre y cuando reconoscan el trabajo de un servid
     });          
 </script>
 				</div>
-				<div id="slider-imag">
-					<img class="img-slider 1" src="images/bodys/portada.jpg" alt="Farmacias El Fénix del Centro" height="380" width="100%"/>
-					<img class="img-slider 2" src="images/bodys/muestra01.jpg" alt="Descuento El Fénix del Centro" height="380" width="100%"/>
-					<img class="img-slider 3" src="images/bodys/muestra02.jpg" alt="Descuento El Fénix del Centro" height="380" width="100%"/>
-					<img class="img-slider 4" src="images/bodys/muestra03.jpg" alt="Descuento El Fénix del Centro" height="380" width="100%"/>
-					<img class="img-slider 5" src="images/bodys/muestra04.jpg" alt="Descuento El Fénix del Centro" height="380" width="100%"/>            
-				</div>
-<script src="/js/sliderIndex.js" type="text/javascript"></script>   
-	<script>
-		var i = 0;
-		$(document).on("ready", main);
-		function main(){
-		var control = setInterval(cambiarSlider, 5000);
-		}
-		function cambiarSlider(){
-			i++;
-			if(i == $("#slider-imag img").size()){
-			i = 0;
-			}
-			$("#slider-imag img").hide();
-			$("#slider-imag img").eq(i).fadeIn("medium");
-		}
-	</script>
-	
+				<section id="directorio">
+					<div class="titzona">
+						<h1>Zona Norte</h1>
+					</div>
+					<div class="titmunicipio">
+						<h2>Tijuana</h2>
+					</div>
+					<article>
+						<div class="nomsuc">
+							<h3>501 Tijuana 01</h3>
+						</div>
+						<p class="direccion">
+							Dirección:<br>
+							CALLE 2DA N.8319 ENTRE MADERO Y NEGRETE<br>
+							ZONA CENTRO	C.P.: 22000<br>
+							Estado:TIJUANA	BAJA CALIFORNIA NORTE<br>
+							Tel:6883661<br>
+							<div class="mapasuc">
+								<iframe width="390" height="167" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.mx/maps?q=Tijuana+BC,+calle+negrete&amp;hl=es-419&amp;sll=32.495701,-116.964591&amp;sspn=0.010533,0.021136&amp;hq=calle+negrete&amp;hnear=Tijuana,+Baja+California&amp;t=m&amp;fll=32.535747,-117.034379&amp;fspn=0.001316,0.002642&amp;layer=c&amp;cbll=32.535616,-117.034898&amp;panoid=bxmjsm4_RZgXYDXoUAj7RA&amp;cbp=12,167.71,,0,-0.64&amp;ie=UTF8&amp;ll=32.444166,-117.036305&amp;spn=0.207754,0.065935&amp;source=embed&amp;output=svembed"></iframe><br /><small><a href="https://maps.google.com.mx/maps?q=Tijuana+BC,+calle+negrete&amp;hl=es-419&amp;sll=32.495701,-116.964591&amp;sspn=0.010533,0.021136&amp;hq=calle+negrete&amp;hnear=Tijuana,+Baja+California&amp;t=m&amp;fll=32.535747,-117.034379&amp;fspn=0.001316,0.002642&amp;layer=c&amp;cbll=32.535616,-117.034898&amp;panoid=bxmjsm4_RZgXYDXoUAj7RA&amp;cbp=12,167.71,,0,-0.64&amp;ie=UTF8&amp;ll=32.444166,-117.036305&amp;spn=0.207754,0.065935&amp;source=embed" style="color:#0000FF;text-align:left" target="_blank" >Ver mapa más grande</a></small>
+							</div>
+						</p>
+					</article>
+					
+				</section>
+				
 		</section>
 			<footer id="pie">
 				<section class="primerfo">

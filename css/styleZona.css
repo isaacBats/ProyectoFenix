@@ -1,0 +1,8 @@
+*{margin: 0;}
+#directorio{color:#000080;font-family: "open sans",Arial, Sans-serif;font-size: 16px;}
+.nomsuc{margin-top: 30px; text-align: left;}
+.nomsuc h3{	display: inline-block;font-size: 45px;height: 45px;margin-top: -15px;margin-right: 20px;text-align: left;text-transform: uppercase;font-weight: normal;}
+.titmunicipio{margin-top: 80px; text-align: left;}
+.titmunicipio h2{display: inline-block;font-size: 90px;height: 90px;margin-top: -15px;margin-right: 20px;text-align: left;text-transform: uppercase;font-weight: normal;}
+.titzona{margin-bottom: 25px;text-align: center;}
+.titzona h1 {display: inline-block;font-size: 112px;height: 112px;margin-top: 10px;margin-right: 20px;text-align: center;text-transform: uppercase;font-weight: normal;}
