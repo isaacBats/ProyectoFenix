@@ -1,8 +1,86 @@
 *{margin: 0;}
-#directorio{color:#000080;font-family: "open sans",Arial, Sans-serif;font-size: 16px;}
-.nomsuc{margin-top: 30px; text-align: left;}
-.nomsuc h3{	display: inline-block;font-size: 45px;height: 45px;margin-top: -15px;margin-right: 20px;text-align: left;text-transform: uppercase;font-weight: normal;}
-.titmunicipio{margin-top: 80px; text-align: left;}
-.titmunicipio h2{display: inline-block;font-size: 90px;height: 90px;margin-top: -15px;margin-right: 20px;text-align: left;text-transform: uppercase;font-weight: normal;}
-.titzona{margin-bottom: 25px;text-align: center;}
-.titzona h1 {display: inline-block;font-size: 112px;height: 112px;margin-top: 10px;margin-right: 20px;text-align: center;text-transform: uppercase;font-weight: normal;}
+#directorio .sucursal
+{
+	background: #fff;
+	border:none;
+	display:block;
+	max-height:170px;
+	width: 500px;
+}
+
+#directorio
+{
+	background:rgba(169,208,245,0.8);
+	color:#000;
+	font-family:"open sans";
+	font-size: 16px;
+}
+
+.nomsuc
+{
+	margin: 10px auto;
+	text-align: left;
+}
+
+.nomsuc h3
+{
+	display: inline-block;
+	font-size: 26px;
+	font-weight: normal;
+	height: 36px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.mapasuc
+{
+	bottom: 140px;
+	left: 180px;
+	position: relative;
+	text-align: right;
+}
+
+.municipio
+{
+	margin: 10px auto;
+	text-align: right;
+}
+
+.municipio h2
+{
+	display: inline-block;
+	font-size: 50px;
+	font-weight: normal;
+	height: 60px;
+	margin:5px auto;
+	margin-right: 20px;
+	padding: 5px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.sucursal .direccion
+{
+	display: inline-block;
+	font-size: smaller;
+	text-align: right;
+	text-transform: none;
+	vertical-align: bottom;
+	width: 250px;
+	zoom:1;
+}
+
+.zona
+{
+	text-align: center;
+}
+
+.zona h1 
+{
+	display: inline-block;
+	font-size: 80px;
+	height: 90px;
+	padding:10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+}
